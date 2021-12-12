@@ -87,7 +87,7 @@ function requestLocation() {
 
 function prepareSMSBody() {
   var plate = document.getElementById('licensePlate').value;
-  var main = document.getElementById('mainText').textContent;
+  var main = document.getElementById('mainText').value;
   var ending = document.getElementById('ending').value;
   var lat = document.getElementById('latitude').value;
   var lon = document.getElementById('longitude').value;
@@ -98,6 +98,7 @@ function prepareSMSBody() {
 function prepareSMS() {
   var number = document.getElementById('smsNumber').value;
   var sms = encodeURI(prepareSMSBody());
+  console.log(prepareSMSBody());
 
   var prefix = `sms://${number}/`;
   var body = `body=${sms}`;
