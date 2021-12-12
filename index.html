@@ -6,133 +6,133 @@
 
     <title>台灣警察簡訊報案(自動帶入區域電話號碼)</title>
 
-<!-- Primary Meta Tags -->
-<title>台灣警察簡訊報案(自動帶入區域電話號碼)</title>
-<meta name="title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
-<meta name="description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
+    <!-- Primary Meta Tags -->
+    <title>台灣警察簡訊報案(自動帶入區域電話號碼)</title>
+    <meta name="title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
+    <meta name="description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://mlouielu.github.io/smspolicetaiwan/">
-<meta property="og:title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
-<meta property="og:description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
-<meta property="og:image" content="https://mlouielu.github.io/smspolicetaiwan/banner.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mlouielu.github.io/smspolicetaiwan/">
+    <meta property="og:title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
+    <meta property="og:description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
+    <meta property="og:image" content="https://mlouielu.github.io/smspolicetaiwan/banner.jpg">
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://mlouielu.github.io/smspolicetaiwan/">
-<meta property="twitter:title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
-<meta property="twitter:description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mlouielu.github.io/smspolicetaiwan/">
+    <meta property="twitter:title" content="台灣警察簡訊報案(自動帶入區域電話號碼)">
+    <meta property="twitter:description" content="台灣警察簡訊報案(自動帶入區域電話號碼)，快速的報案解決交通違規問題，自動產生簡訊報案內容，一鍵送出。">
 
-<meta property="twitter:image" content="https://mlouielu.github.io/smspolicetaiwan/banner.jpg">
+    <meta property="twitter:image" content="https://mlouielu.github.io/smspolicetaiwan/banner.jpg">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RKQ5CN0XQD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RKQ5CN0XQD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-RKQ5CN0XQD');
-</script>
+      gtag('config', 'G-RKQ5CN0XQD');
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="sms.js"></script>
   </head>
   <body>
     <div class="section">
-    <div class="columns is-mobile">
-      <div class="column">
-        <div class="field">
-          <div>
-            <label class="label">簡訊報案電話號碼</label>
-            <label class="label">(允許瀏覽器獲得位置後自動帶出)</label>
-          </div>
-          <div class="field has-addons">
-            <p class="control has-icons-left is-expanded">
-              <span class="select is-fullwidth is-small">
-                <select id="smsNumber">
-                  <option selected>-- 請選擇縣市電話 --</option>
-                  <option value="0911510914">臺北市 @ 0911-510-914</option>
-                  <option value="0912095110">新北市 @ 0912-095-110</option>
-                  <option value="0911510915">臺中市 @ 0911-510-915</option>
-                  <option value="0911510916">臺南市 @ 0911-510-916</option>
-                  <option value="0911510917">高雄市 @ 0911-510-917</option>
-                  <option value="0917110880">桃園市 @ 0917-110-880</option>
-                  <option value="0911510918">基隆市 @ 0911-510-918</option>
-                  <option value="0911510919">新竹市 @ 0911-510-919</option>
-                  <option value="0911510920">嘉義市 @ 0911-510-920</option>
-                  <option value="0911510921">新竹縣 @ 0911-510-921</option>
-                  <option value="0911510922">苗栗縣 @ 0911-510-922</option>
-                  <option value="0911510933">彰化縣 @ 0911-510-933</option>
-                  <option value="0911510923">南投縣 @ 0911-510-923</option>
-                  <option value="0911510924">雲林縣 @ 0911-510-924</option>
-                  <option value="0911510925">嘉義縣 @ 0911-510-925</option>
-                  <option value="0911510926">屏東縣 @ 0911-510-926</option>
-                  <option value="0911510927">宜蘭縣 @ 0911-510-927</option>
-                  <option value="0911510928">花蓮縣 @ 0911-510-928</option>
-                  <option value="0911510929">臺東縣 @ 0911-510-929</option>
-                  <option value="0911510930">澎湖縣 @ 0911-510-930</option>
-                  <option value="0911510931">金門縣 @ 0911-510-931</option>
-                  <option value="0911510932">連江縣 @ 0911-510-932</option>
-                </select>
-              </span>
-              <span class="icon is-small is-left">
-                <i class="fas fa-home"></i>
-              </span>
-            </p>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">您好，車牌號碼：</label>
-          <div class="control has-icons-left">
-            <input id="licensePlate" class="input" type="text">
-            <span class="icon is-small is-left">
-              <i class="fas fa-id-badge"></i>
-            </span>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">主文</label>
-          <div class="control">
-            <textarea id="mainText" class="textarea" placeholder="於OO路OO號未依規定停置於紅線，嚴重影響行車安全"></textarea>
-          </div>
-        </div>
-        <div class="field">
-          <label class="label">結束語</label>
-          <div class="control">
-            <input id="ending" class="input" type="text">
-          </div>
-        </div>
-        <div class="field">
-          <div>
-            <label class="label">座標：</label>
-          </div>
-          <div class="field-body">
-            <div class="field">
-          <p class="control is-expanded">
-            <input id="latitude" class="input" type="text">
-          </p>
+      <div class="columns is-mobile">
+        <div class="column">
+          <div class="field">
+            <div>
+              <label class="label">簡訊報案電話號碼</label>
+              <label class="label">(允許瀏覽器獲得位置後自動帶出)</label>
             </div>
-            <div class="field">
-          <p class="control is-expanded">
-            <input id="longitude" class="input" type="text">
-          </p>
+            <div class="field has-addons">
+              <p class="control has-icons-left is-expanded">
+                <span class="select is-fullwidth is-small">
+                  <select id="smsNumber">
+                    <option selected>-- 請選擇縣市電話 --</option>
+                    <option value="0911510914">臺北市 @ 0911-510-914</option>
+                    <option value="0912095110">新北市 @ 0912-095-110</option>
+                    <option value="0911510915">臺中市 @ 0911-510-915</option>
+                    <option value="0911510916">臺南市 @ 0911-510-916</option>
+                    <option value="0911510917">高雄市 @ 0911-510-917</option>
+                    <option value="0917110880">桃園市 @ 0917-110-880</option>
+                    <option value="0911510918">基隆市 @ 0911-510-918</option>
+                    <option value="0911510919">新竹市 @ 0911-510-919</option>
+                    <option value="0911510920">嘉義市 @ 0911-510-920</option>
+                    <option value="0911510921">新竹縣 @ 0911-510-921</option>
+                    <option value="0911510922">苗栗縣 @ 0911-510-922</option>
+                    <option value="0911510933">彰化縣 @ 0911-510-933</option>
+                    <option value="0911510923">南投縣 @ 0911-510-923</option>
+                    <option value="0911510924">雲林縣 @ 0911-510-924</option>
+                    <option value="0911510925">嘉義縣 @ 0911-510-925</option>
+                    <option value="0911510926">屏東縣 @ 0911-510-926</option>
+                    <option value="0911510927">宜蘭縣 @ 0911-510-927</option>
+                    <option value="0911510928">花蓮縣 @ 0911-510-928</option>
+                    <option value="0911510929">臺東縣 @ 0911-510-929</option>
+                    <option value="0911510930">澎湖縣 @ 0911-510-930</option>
+                    <option value="0911510931">金門縣 @ 0911-510-931</option>
+                    <option value="0911510932">連江縣 @ 0911-510-932</option>
+                  </select>
+                </span>
+                <span class="icon is-small is-left">
+                  <i class="fas fa-home"></i>
+                </span>
+              </p>
+            </div>
           </div>
+          <div class="field">
+            <label class="label">您好，車牌號碼：</label>
+            <div class="control has-icons-left">
+              <input id="licensePlate" class="input" type="text">
+              <span class="icon is-small is-left">
+                <i class="fas fa-id-badge"></i>
+              </span>
+            </div>
           </div>
+          <div class="field">
+            <label class="label">主文</label>
+            <div class="control">
+              <textarea id="mainText" class="textarea" placeholder="於OO路OO號未依規定停置於紅線，嚴重影響行車安全"></textarea>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">結束語</label>
+            <div class="control">
+              <input id="ending" class="input" type="text">
+            </div>
+          </div>
+          <div class="field">
+            <div>
+              <label class="label">座標：</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <p class="control is-expanded">
+                  <input id="latitude" class="input" type="text">
+                </p>
+              </div>
+              <div class="field">
+                <p class="control is-expanded">
+                  <input id="longitude" class="input" type="text">
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="field">
+            <div class="control">
+              <button class="button is-primary is-fullwidth" onclick="sendSMS()">
+                開啟簡訊準備傳送
+              </button>
+            </div>
+          </div>
+
         </div>
-
-
-        <div class="field">
-          <div class="control">
-            <button class="button is-primary is-fullwidth" onclick="sendSMS()">
-              開啟簡訊準備傳送
-            </button>
-          </div>
-        </div>
-
       </div>
-    </div>
     </div>
   </body>
   <script>
