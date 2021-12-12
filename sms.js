@@ -97,7 +97,6 @@ function prepareSMSBody() {
 function prepareSMS() {
   var number = document.getElementById('smsNumber').value;
   var sms = encodeURI(prepareSMSBody());
-  console.log(prepareSMSBody());
 
   var prefix = `sms://${number}/`;
   var body = `body=${sms}`;
