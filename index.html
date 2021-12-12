@@ -105,9 +105,15 @@
             </div>
           </div>
           <div class="field">
-            <div>
-              <label class="label">座標：</label>
-            </div>
+            <label class="label">座標：
+              <button class="button is-small is-light is-info"
+                      onclick="openLocationInGoogleMap()">
+                <span class="icon is-small">
+                  <i class="fas fa-search"></i>
+                </span>
+                <span>於 Google 地圖開啟座標</span>
+              </button>
+            </label>
             <div class="field-body">
               <div class="field">
                 <p class="control is-expanded">
@@ -121,8 +127,6 @@
               </div>
             </div>
           </div>
-
-
           <div class="field">
             <div class="control">
               <button class="button is-primary is-fullwidth" onclick="sendSMS()">

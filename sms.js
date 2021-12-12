@@ -112,3 +112,11 @@ function sendSMS() {
   console.log(sms);
   window.open(sms,'_blank');
 }
+
+function openLocationInGoogleMap() {
+  var lat = document.getElementById('latitude').value;
+  var lon = document.getElementById('longitude').value;
+  window.open(
+    `https://google.com/maps/search/?api=1&query=${lat},${lon}`,
+    '_blank');
+}
