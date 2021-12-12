@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="192"
+   height="192"
+   viewBox="0 0 50.8 50.800001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="icons.svg"
+   inkscape:export-filename="/home/louie/dev/sms-police-thanks/icons/icon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="793.70081px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="1.5607744"
+     inkscape:cx="-24.026534"
+     inkscape:cy="109.88135"
+     inkscape:window-width="1914"
+     inkscape:window-height="1031"
+     inkscape:window-x="1920"
+     inkscape:window-y="20"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g11665" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11665"
+       transform="translate(-1.3828278e-7,-0.78246829)">
+      <path
+         id="rect846"
+         style="fill:none;stroke:#000000;stroke-width:2.3;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke;stroke-miterlimit:4;stroke-dasharray:none"
+         d="M 9.9971902,5.2941699 H 40.80281 c 1.656783,0 2.990583,1.3338 2.990583,2.9905829 V 26.944631 c 0,1.656783 -1.3338,2.990583 -2.990583,2.990583 H 24.909338 l -8.912135,6.445384 0.01055,-6.445384 H 9.9971902 c -1.656783,0 -2.990583,-1.3338 -2.990583,-2.990583 V 8.2847528 c 0,-1.6567829 1.3338,-2.9905829 2.990583,-2.9905829 z"
+         sodipodi:nodetypes="ssssscccssss" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.6389px;line-height:1.25;font-family:Impact;-inkscape-font-specification:Impact;letter-spacing:0px;word-spacing:0px;stroke-width:0.452305"
+         x="9.3574152"
+         y="23.330357"
+         id="text3636"><tspan
+           sodipodi:role="line"
+           id="tspan3634"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.6389px;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Bold';stroke-width:0.452305"
+           x="9.3574152"
+           y="23.330357">SOS</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="4.3127756"
+         y="47.597103"
+         id="text7834"><tspan
+           sodipodi:role="line"
+           id="tspan7832"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Noto Sans CJK TC';-inkscape-font-specification:'Noto Sans CJK TC Heavy';stroke-width:0.264583"
+           x="4.3127756"
+           y="47.597103">簡訊報案</tspan></text>
+    </g>
+  </g>
+</svg>
