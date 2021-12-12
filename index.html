@@ -45,16 +45,40 @@
         <div class="field">
           <div>
             <label class="label">簡訊報案電話號碼</label>
+            <label class="label">(允許瀏覽器獲得位置後自動帶出)</label>
           </div>
           <div class="field has-addons">
             <p class="control has-icons-left">
-              <input id="smsNumber" class="input" type="text">
+              <span class="select">
+                <select id="smsNumber">
+                  <option selected>-- 請選擇縣市電話 --</option>
+                  <option value="0911510914">臺北市 @ 0911510914</option>
+                  <option value="0912095110">新北市 @ 0912095110</option>
+                  <option value="0911510915">臺中市 @ 0911510915</option>
+                  <option value="0911510916">臺南市 @ 0911510916</option>
+                  <option value="0911510917">高雄市 @ 0911510917</option>
+                  <option value="0917110880">桃園市 @ 0917110880</option>
+                  <option value="0911510918">基隆市 @ 0911510918</option>
+                  <option value="0911510919">新竹市 @ 0911510919</option>
+                  <option value="0911510920">嘉義市 @ 0911510920</option>
+                  <option value="0911510921">新竹縣 @ 0911510921</option>
+                  <option value="0911510922">苗栗縣 @ 0911510922</option>
+                  <option value="0911510933">彰化縣 @ 0911510933</option>
+                  <option value="0911510923">南投縣 @ 0911510923</option>
+                  <option value="0911510924">雲林縣 @ 0911510924</option>
+                  <option value="0911510925">嘉義縣 @ 0911510925</option>
+                  <option value="0911510926">屏東縣 @ 0911510926</option>
+                  <option value="0911510927">宜蘭縣 @ 0911510927</option>
+                  <option value="0911510928">花蓮縣 @ 0911510928</option>
+                  <option value="0911510929">臺東縣 @ 0911510929</option>
+                  <option value="0911510930">澎湖縣 @ 0911510930</option>
+                  <option value="0911510931">金門縣 @ 0911510931</option>
+                  <option value="0911510932">連江縣 @ 0911510932</option>
+                </select>
+              </span>
               <span class="icon is-small is-left">
                 <i class="fas fa-home"></i>
               </span>
-            </p>
-            <p class="control">
-              <a id="currentCity" class="button is-static"></a>
             </p>
           </div>
         </div>

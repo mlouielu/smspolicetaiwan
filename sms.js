@@ -39,7 +39,6 @@ function setupRandomEnding() {
 
 function setupSMSNumberAndCity(number, city) {
   document.getElementById("smsNumber").value = number;
-  document.getElementById("currentCity").innerHTML = `@ ${city}`;
 }
 
 function getSMSNumberByCity(city, callback) {
